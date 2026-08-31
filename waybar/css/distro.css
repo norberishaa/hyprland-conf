@@ -1,0 +1,47 @@
+#distro-group{
+    background-color: @group-bg;
+    border-radius: 25px;
+    margin: 4px 2px;
+    padding: 0px 0px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+#custom-distro, 
+#custom-terminal,
+#custom-obsidian,
+#custom-brave,
+#custom-code,
+#custom-power{
+    font-size: 0px;
+
+    border-radius: 15px;
+
+    min-width: 28px;
+    min-height: 28px;
+
+    padding: 0 8px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+#custom-distro { background-image: url("../icons/arch.svg"); }
+#custom-terminal { background-image: url("../icons/kitty.svg"); }
+#custom-obsidian { background-image: url("../icons/obsidian.svg"); }
+#custom-brave { background-image: url("../icons/brave.svg"); }
+#custom-code { background-image: url("../icons/code.svg"); }
+
+
+/* HOVER ANIMATIONS*/
+#custom-terminal:hover,
+#custom-obsidian:hover,
+#custom-brave:hover,
+#custom-code:hover,
+#custom-power:hover{
+    background-color: #373737;
+}
+
+#custom-power:hover{
+    color: #FFADB0;
+}

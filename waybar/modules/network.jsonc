@@ -1,0 +1,15 @@
+{
+    "network": {
+        "format-wifi": "{icon}  {essid}",
+        "format-ethernet": "\uf00c  Ethernet",
+        "format-disconnected": "\uf015  Disconnected",
+	"on-click": "nm-connection-editor",
+
+        "format-icons": [
+            "\uf015",
+	    "\uf013",
+	    "\uf014", 
+            "\uf012" 
+        ]
+    }
+}

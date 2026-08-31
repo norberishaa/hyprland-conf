@@ -1,0 +1,60 @@
+{
+    "group/distro-group":{
+	"orientation":"horizontal",
+	"drawer":{
+	    "transition-duration":500,
+	    "transition-left-to-right":true
+	},
+	"modules":[
+	    "custom/distro",
+	    "custom/terminal",
+	    "custom/obsidian",
+	    "custom/brave",
+	    "custom/code"
+	]
+    },
+    "group/cpu-drawer": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300,
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "cpu#icon",
+            "cpu#text"
+        ]
+    },
+    "group/memory-drawer": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300,
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "memory#icon",
+            "memory#text"
+        ]
+    },
+    "group/audio":{
+	"orientation":"horizontal",
+	"drawer":{
+	    "transition-duration":300,
+	    "transition-left-to-right":true
+	},
+	"modules":[
+	    "pulseaudio",
+	    "pulseaudio/slider"
+	]	
+    },
+    "group/ddc_light":{
+	"orientation":"horizontal",
+	"drawer":{
+	    "transition-duration":300,
+	    "transition-left-to-right":true
+	},
+	"modules":[
+	   "custom/ddc",
+	   "custom/ddc_brightness"
+	]	
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "custom/poweroff":{
+    	"format": "\uf00e",
+	"tooltip": false,
+	"menu": "on-click",
+	"menu-file": "~/.config/waybar/modules/power_menu.xml",
+	"menu-actions": {
+	    "shutdown": "systemctl poweroff",
+	    "reboot": "systemctl reboot",
+	    "logout": "systemctl dispatch exit"
+	}
+    }
+}

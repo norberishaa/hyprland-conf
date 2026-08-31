@@ -1,0 +1,33 @@
+{
+    "layer":"top",
+    "height":44,
+    "spacing":6,
+    "include":[
+	"./modules/groups.jsonc",
+	"./modules/distro.jsonc",
+	"./modules/system.jsonc",
+	"./modules/workspaces.jsonc",
+	"./modules/audio.jsonc",
+	"./modules/poweroff.jsonc",
+	"./modules/media.jsonc",
+	"./modules/battery.jsonc",
+	"./modules/network.jsonc",
+	"./modules/clock.jsonc"
+    ],
+    "modules-center":[
+	"hyprland/workspaces",
+	"clock"
+    ],
+    "modules-left":[
+	"group/distro-group",
+	"group/cpu-drawer",
+	"group/memory-drawer",
+	"custom/media"
+    ],
+    "modules-right":[
+	"group/audio",
+	"network",
+	"battery",
+	"custom/poweroff"
+    ]
+}

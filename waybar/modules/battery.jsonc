@@ -1,0 +1,24 @@
+{
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        // Mapped to image_d9883d.png
+        "format": "{icon}  {capacity}%",
+        "format-charging": "\uf00a  {capacity}%",
+        "format-plugged": "\uf00a  {capacity}%",
+        "format-icons": [
+            "\uf000", // 10%
+            "\uf001", // 20%
+            "\uf002", // 30%
+            "\uf003", // 40%
+            "\uf004", // 50%
+            "\uf005", // 60%
+            "\uf006", // 70%
+            "\uf007", // 80%
+            "\uf008", // 90%
+            "\uf009"  // 100%
+        ]
+    }
+}

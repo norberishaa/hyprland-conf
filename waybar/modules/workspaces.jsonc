@@ -1,0 +1,8 @@
+{
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "all-outputs": true,
+	"on-click": "activate",
+	"move-to-monitor":true
+    }
+}

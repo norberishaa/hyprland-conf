@@ -1,0 +1,23 @@
+{
+    "cpu#icon": {
+        "tooltip": false,
+        "interval": 2,
+        "format": "\uf016",
+	"on-click": "kitty --title 'CPU Specs' sh -c 'cpufetch; read -n 1 -s -r -p \"Press any key to close...\"'"
+    },
+    "cpu#text": {
+        "tooltip": false,
+        "interval": 2,
+        "format": "{usage}%"
+    },
+    "memory#icon": {
+        "tooltip": false,
+        "interval": 2,
+        "format": "\uf017",
+	"on-click": "kitty --title 'RAM Specs' sh -c 'ramfetch; read -n 1 -s -r -p \"Press any key to close...\"'" },
+    "memory#text": {
+        "tooltip": false,
+        "interval": 2,
+        "format": "{used:0.1f}GB/{total:0.1f}GB"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "custom/media": {
+        "format": "{icon} {text}",
+	"return-type": "json",
+	"max-length": 20,
+	"escape": true,
+	"exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null",
+	"on-click": "playerctl play-pause",
+	"on-scroll-up": "playerctl next",
+	"on-scroll-down": "playerctl previous"
+    }
+}

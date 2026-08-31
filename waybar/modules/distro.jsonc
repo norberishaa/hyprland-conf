@@ -1,0 +1,27 @@
+{
+    "custom/distro":{
+	"format": " ",
+	"tooltip": false
+    },
+    "custom/terminal":{
+	"format":" ", 
+	"on-click":"kitty",
+	"tooltip":false
+    },
+    "custom/obsidian":{
+	"format":" ", 
+	"on-click":"obsidian",
+	"tooltip":false
+    },
+    "custom/brave":{
+	"format":" ",
+	"on-click":"brave",
+	"tooltip":false
+    },
+    "custom/code":{
+	"format":" ",
+	"on-click":"code",
+	"tooltip":false
+    }
+    
+}

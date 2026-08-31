@@ -1,0 +1,24 @@
+@define-color bar-bg #131313;
+@define-color group-bg #191919;
+@define-color text whitesmoke;
+@define-color hover-bg #262626;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    min-height: 0;
+    font-family: "icomoon", "JetBrainsMono Nerd Font", sans-serif;
+
+}
+
+/* Main Bar Background */
+window#waybar {
+    background-color: @bar-bg;
+    color: @text;
+}
+
+/* Container Spacing */
+.modules-left {
+    padding: 0px 4px;
+}

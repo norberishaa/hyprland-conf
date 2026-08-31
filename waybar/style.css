@@ -1,0 +1,9 @@
+@import url("./fonts/waybar.ttf");
+
+@import "css/base.css";
+@import "css/distro.css";
+@import "css/system.css";
+@import "css/workspaces.css";
+@import "css/audio.css";
+@import "css/power_menu.css";
+@import "css/battery_network.css";

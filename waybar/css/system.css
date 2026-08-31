@@ -1,0 +1,21 @@
+#cpu-drawer,
+#memory-drawer{
+    background-color: @group-bg;
+    border-radius: 25px;
+    padding: 0 6px;
+    margin: 4px 2px; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+#cpu,
+#memory {
+    color: @text;
+    font-size: 18px;
+    font-family: "waybar", sans-serif;
+
+    min-width: 28px;
+    min-height: 28px;
+
+    padding: 0 0;
+    margin: 2px 3px;
+}
