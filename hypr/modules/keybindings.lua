@@ -3,6 +3,7 @@ local terminal = "kitty"
 local fileManager = "dolphin"
 local menu = "walker"
 local browser = "brave"
+
 ---------------------
 ---- KEYBINDINGS ----
 ---------------------
@@ -91,3 +92,5 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 1 }))
 
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("sh -c 'hyprshot -m region'"))
 hl.bind(mainMod .. "+ SHIFT + X", hl.dsp.exec_cmd("sh -c 'hyprshot -m window'"))
+
+hl.bind(mainMod .. "+ b", hl.dsp.exec_cmd("pkill -SIGUSR1 waybar"))

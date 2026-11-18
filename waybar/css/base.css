@@ -1,12 +1,12 @@
-@define-color bar-bg #131313;
-@define-color group-bg #191919;
+@define-color bar-bg #000000;
+@define-color group-bg #111111;
 @define-color text whitesmoke;
 @define-color hover-bg #262626;
 
 * {
     border: none;
     border-radius: 0;
-    font-size: 14px;
+    font-size: 15px;
     min-height: 0;
     font-family: "icomoon", "JetBrainsMono Nerd Font", sans-serif;
 
